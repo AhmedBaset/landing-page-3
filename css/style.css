@@ -1,0 +1,67 @@
+body {
+  --clr-primary: hsl(184, 65%, 41%);
+  --clr-primary-dark: hsl(184, 73%, 33%);
+  --clr-primary-light: hsl(184, 100%, 92%);
+  --font-family: "Sen", sans-serif;
+  --clr-bg: #fafafa;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.dark-mode {
+  --clr-primary-light: hsl(184, 73%, 33%);
+  --clr-primary-dark: hsl(184, 100%, 92%);
+}
+
+.dark-mode section {
+  background-image: none !important;
+}
+
+.app {
+  height: 100vh;
+  scroll-snap-type: y proximity;
+  overflow-y: scroll;
+}
+
+section, footer {
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.phone-hidden {
+  width: 650px;
+  height: 650px;
+  top: -150px;
+  right: -150px;
+  z-index: -1;
+}
+
+label span {
+  color: var(--clr-primary);
+  font-size: 1.2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--clr-primary);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+label .light {
+  display: none;
+}
+label .dark {
+  display: flex;
+}
+label input {
+  appearance: none;
+  display: none;
+}
+label input:checked ~ .light {
+  display: flex;
+}
+label input:checked ~ .dark {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
