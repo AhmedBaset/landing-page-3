@@ -1,6 +1,6 @@
 {
 	"name": "16-template",
-	"private": true,
+	"private": false,
 	"homepage": "https://a7med3bdulbaset.github.io/template-react-stylish",
 	"version": "0.0.0",
 	"type": "module",
