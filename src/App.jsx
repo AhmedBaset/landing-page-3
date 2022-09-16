@@ -10,7 +10,6 @@ import Footer from './Components/Footer'
 import Quotation from './Components/Quotation'
 
 function App() {
-
   return (
     <div className="app">
       <Nav />
