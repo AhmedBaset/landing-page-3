@@ -1,7 +1,7 @@
 {
 	"name": "16-template",
 	"private": false,
-	"homepage": "https://github.com/template-react-stylish",
+	"homepage": "https://github.com/template-react-stylish/dist/",
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
