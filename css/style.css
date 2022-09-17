@@ -4,8 +4,6 @@ body {
   --clr-primary-light: hsl(184, 100%, 92%);
   --font-family: "Sen", sans-serif;
   --clr-bg: #fafafa;
-  height: 100vh;
-  overflow: hidden;
 }
 
 .dark-mode {
@@ -17,18 +15,7 @@ body {
   background-image: none !important;
 }
 
-.app {
-  height: 100vh;
-  scroll-snap-type: y proximity;
-  overflow-y: scroll;
-}
-
-section, footer {
-  scroll-snap-align: start;
-  position: relative;
-}
-
-.phone-hidden {
+.before {
   width: 650px;
   height: 650px;
   top: -150px;

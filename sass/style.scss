@@ -4,8 +4,6 @@ body {
 	--clr-primary-light: hsl(184, 100%, 92%);
 	--font-family: "Sen", sans-serif;
 	--clr-bg: #fafafa;
-	height: 100vh;
-	overflow: hidden;
 }
 .dark-mode {
 	--clr-primary-light: hsl(184, 73%, 33%);
@@ -13,15 +11,6 @@ body {
 }
 .dark-mode section {
 	background-image: none !important;
-}
-.app {
-	height: 100vh;
-	scroll-snap-type: y proximity;
-	overflow-y: scroll;
-}
-section, footer {
-	scroll-snap-align: start;
-	position: relative;
 }
 .before {
 	width: 650px;
