@@ -806,7 +806,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 		job: "Head of Design",
 	},
 	{
-		image: "https://raw.githubusercontent.com/A7med3bdulBaset/template1-react-stylish/main/src/images/team-1.png",
+		image: "https://raw.githubusercontent.com/A7med3bdulBaset/template1-react-stylish/main/src/images/team-3.png",
 		name: "Jamil Kareem",
 		job: "Head Of UX",
 	},
