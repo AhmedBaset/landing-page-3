@@ -822,4 +822,4 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
  * LICENSE.md file in the root directory of this source tree.
  *
  * @license MIT
- */function Uh(e){let{basename:t,children:n,window:r}=e,i=ke.exports.useRef();i.current==null&&(i.current=wh({window:r,v5Compat:!0}));let a=i.current,[o,l]=ke.exports.useState({action:a.action,location:a.location});return ke.exports.useLayoutEffect(()=>a.listen(l),[a]),g(jh,{basename:t,children:n,location:o.location,navigationType:o.action,navigator:a})}po.createRoot(document.getElementById("root")).render(g(Uh,{base:"/",children:g(yh,{})}));
+ */function Uh(e){let{basename:t,children:n,window:r}=e,i=ke.exports.useRef();i.current==null&&(i.current=wh({window:r,v5Compat:!0}));let a=i.current,[o,l]=ke.exports.useState({action:a.action,location:a.location});return ke.exports.useLayoutEffect(()=>a.listen(l),[a]),g(jh,{basename:t,children:n,location:o.location,navigationType:o.action,navigator:a})}console.log("done");po.createRoot(document.getElementById("root")).render(g(Uh,{base:"/template-react-stylish",children:g(yh,{})}));
