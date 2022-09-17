@@ -188,6 +188,7 @@ allDisabled.forEach((disabled) => {
 // Navigation Bar
 window.onload = () => {
 	let navColored = document.querySelector(".nav-auto-colored");
+
 	function colorNavFn() {
 		if (window.scrollY > 150) {
 			navColored.classList.add("active");
@@ -195,8 +196,8 @@ window.onload = () => {
 			navColored.classList.remove("active");
 		}
 	}
-	colorNavFn();
 	if (navColored) {
+		colorNavFn();
 		window.onscroll = () => {
 			colorNavFn();
 		};
